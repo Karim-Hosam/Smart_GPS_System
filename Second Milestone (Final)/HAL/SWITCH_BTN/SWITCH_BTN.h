@@ -3,7 +3,7 @@
 
 #include <stdint.h>
 #include <stdbool.h>         //  LCD
-#include "tm4c123gh6pm.h" 
+#include "TM4C123.h"
 
 
 extern volatile int state;

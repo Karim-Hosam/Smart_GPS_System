@@ -1,0 +1,50 @@
+Dependencies for Project 'First_Milestone', Target 'Target 1': (DO NOT MODIFY !)
+F (C:\1- Local Disk (D;)\Karim\1-Study\Junior (2nd Semester)\4- Introduction to Embedded Systems\Project\Smart_GPS_System_FINAL\Smart_GPS_System\First Milestone\App\App.c)(0x68251C2B)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\TI\TM4C123-DTM4C123GH6PM-o .\app.o --omf_browse .\app.crf --depend .\app.d)
+I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C819B4)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C819B4)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x51C819B4)
+I (Second Milestone (Final)\App\App.h)(0x681BB6FC)
+I (Second Milestone (Final)\App\../../Services - Utilities/TM4C123.h)(0x6812AA04)
+I (C:\Keil\ARM\Inc\TI\TM4C123\TM4C123.h)(0x532C5688)
+I (C:\Keil\ARM\Inc\TI\TM4C123\TM4C123GH6PM.h)(0x532C5688)
+I (C:\Keil\ARM\CMSIS\Include\core_cm4.h)(0x532C5A32)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C819B4)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x532C5A32)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x532C5A32)
+I (C:\Keil\ARM\CMSIS\Include\core_cm4_simd.h)(0x532C5A32)
+I (C:\Keil\ARM\Inc\TI\TM4C123\system_TM4C123.h)(0x532C5688)
+I (Second Milestone (Final)\App\../../Services - Utilities/bit_utilies.h)(0x68128630)
+I (Second Milestone (Final)\App\../MCAL/TIMER/TIMER.h)(0x681BAB28)
+I (Second Milestone (Final)\App\../MCAL/TIMER/../../HAL/LCD/LCD.h)(0x68166B59)
+I (Second Milestone (Final)\App\../MCAL/GPIO/GPIO.h)(0x6817B49E)
+I (Second Milestone (Final)\App\../MCAL/UART/UART.h)(0x68166B5E)
+I (Second Milestone (Final)\App\../MCAL/SYSTICK/SYSTICK.h)(0x68179925)
+I (Second Milestone (Final)\App\../HAL/GPS/GPS.h)(0x681A29E6)
+I (C:\Keil\ARM\ARMCC\include\stdbool.h)(0x51C819B4)
+I (C:\Keil\ARM\ARMCC\include\math.h)(0x51C819B4)
+I (Second Milestone (Final)\App\../HAL/GPS/../../MCAL/UART/UART.h)(0x68166B5E)
+I (Second Milestone (Final)\App\../HAL/LED_BUZZER/LED_BUZZER.h)(0x681A0388)
+I (C:\ti\TivaWare_C_Series-2.2.0.295\inc\tm4c123gh6pm.h)(0x00000000)
+I (Second Milestone (Final)\App\../HAL/SWITCH_BTN/SWITCH_BTN.h)(0x681BB225)
+F (C:\1- Local Disk (D;)\Karim\1-Study\Junior (2nd Semester)\4- Introduction to Embedded Systems\Project\Smart_GPS_System_FINAL\Smart_GPS_System\First Milestone\App\App.h)(0x68251C2D)()
+F (C:\1- Local Disk (D;)\Karim\1-Study\Junior (2nd Semester)\4- Introduction to Embedded Systems\Project\Smart_GPS_System_FINAL\Smart_GPS_System\First Milestone\MCAL\GPIO\GPIO.c)(0x68251C30)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\TI\TM4C123-DTM4C123GH6PM-o .\gpio.o --omf_browse .\gpio.crf --depend .\gpio.d)
+I (Second Milestone (Final)\MCAL\GPIO\GPIO.h)(0x6817B49E)
+I (Second Milestone (Final)\MCAL\GPIO\../../../Services - Utilities/TM4C123.h)(0x6812AA04)
+I (Second Milestone (Final)\MCAL\GPIO\../../../Services - Utilities/bit_utilies.h)(0x68128630)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C819B4)
+F (C:\1- Local Disk (D;)\Karim\1-Study\Junior (2nd Semester)\4- Introduction to Embedded Systems\Project\Smart_GPS_System_FINAL\Smart_GPS_System\First Milestone\MCAL\GPIO\GPIO.h)(0x68251C12)()
+F (C:\1- Local Disk (D;)\Karim\1-Study\Junior (2nd Semester)\4- Introduction to Embedded Systems\Project\Smart_GPS_System_FINAL\Smart_GPS_System\First Milestone\MCAL\UART\UART.c)(0x68251C2E)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\TI\TM4C123-DTM4C123GH6PM-o .\uart.o --omf_browse .\uart.crf --depend .\uart.d)
+I (Second Milestone (Final)\MCAL\UART\UART.h)(0x68166B5E)
+I (Second Milestone (Final)\MCAL\UART\../../../Services - Utilities/TM4C123.h)(0x6812AA04)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C819B4)
+F (C:\1- Local Disk (D;)\Karim\1-Study\Junior (2nd Semester)\4- Introduction to Embedded Systems\Project\Smart_GPS_System_FINAL\Smart_GPS_System\First Milestone\MCAL\UART\UART.h)(0x68251C2F)()
+F (C:\1- Local Disk (D;)\Karim\1-Study\Junior (2nd Semester)\4- Introduction to Embedded Systems\Project\Smart_GPS_System_FINAL\Smart_GPS_System\First Milestone\MCAL\SYSTICK\SYSTICK.c)(0x6817BA8A)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\TI\TM4C123-DTM4C123GH6PM-o .\systick.o --omf_browse .\systick.crf --depend .\systick.d)
+I (Second Milestone (Final)\MCAL\SYSTICK\Systick.h)(0x68179925)
+I (Second Milestone (Final)\MCAL\SYSTICK\../../../Services - Utilities/TM4C123.h)(0x6812AA04)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C819B4)
+F (C:\1- Local Disk (D;)\Karim\1-Study\Junior (2nd Semester)\4- Introduction to Embedded Systems\Project\Smart_GPS_System_FINAL\Smart_GPS_System\First Milestone\MCAL\SYSTICK\SYSTICK.h)(0x68179925)()
+F (C:\1- Local Disk (D;)\Karim\1-Study\Junior (2nd Semester)\4- Introduction to Embedded Systems\Project\Smart_GPS_System_FINAL\Smart_GPS_System\Services - Utilities\startup_TM4C123.s)(0x6812430C)(--cpu Cortex-M4.fp --pd "__EVAL SETA 1" -g --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\TI\TM4C123--list .\startup_tm4c123.lst --xref -o .\startup_tm4c123.o --depend .\startup_tm4c123.d)
+F (C:\1- Local Disk (D;)\Karim\1-Study\Junior (2nd Semester)\4- Introduction to Embedded Systems\Project\Smart_GPS_System_FINAL\Smart_GPS_System\Services - Utilities\system_TM4C123.c)(0x6812B06F)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\TI\TM4C123-DTM4C123GH6PM-o .\system_tm4c123.o --omf_browse .\system_tm4c123.crf --depend .\system_tm4c123.d)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C819B4)
+F (C:\1- Local Disk (D;)\Karim\1-Study\Junior (2nd Semester)\4- Introduction to Embedded Systems\Project\Smart_GPS_System_FINAL\Smart_GPS_System\Services - Utilities\bit_utilies.h)(0x68128630)()
+F (C:\1- Local Disk (D;)\Karim\1-Study\Junior (2nd Semester)\4- Introduction to Embedded Systems\Project\Smart_GPS_System_FINAL\Smart_GPS_System\Services - Utilities\TM4C123.h)(0x6812AA04)()

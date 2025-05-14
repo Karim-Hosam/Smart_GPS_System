@@ -23,6 +23,6 @@ float GPS_get_Distance_from_SELECTED_Place(float Lat, float Log, int index);
 
 // Coordinates of known places
 extern const int Places_Quantity;
-extern float Coordinate_fixed_places[6][2];
+extern float Coordinate_fixed_places[5][2];
 
 #endif // GPS_H

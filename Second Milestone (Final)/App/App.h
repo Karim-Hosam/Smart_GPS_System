@@ -1,10 +1,13 @@
 #ifndef APP_H
 #define APP_H
 
+#include <stdlib.h>
+#include <stdio.h>
+#include <string.h>
+#include <stdint.h>
 #include "../../Services - Utilities/TM4C123.h"
 #include "TM4C123.h"
 #include "../../Services - Utilities/bit_utilies.h"
-#include <stdint.h>
 #include "../MCAL/TIMER/TIMER.h"
 #include "../MCAL/GPIO/GPIO.h"
 #include "../MCAL/UART/UART.h"

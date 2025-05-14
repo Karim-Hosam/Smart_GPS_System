@@ -3,7 +3,7 @@
 
 #include <stdint.h>
 #include <stdbool.h>         //  LCD
-#include "tm4c123gh6pm.h" 
+#include "TM4C123.h"
 
 #define LED_PIN     0x04  // PA2 (bit 2)
 #define BUZZER_PIN  0x08  // PA3 (bit 3)

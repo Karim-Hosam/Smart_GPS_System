@@ -65,6 +65,9 @@
     "app.h": "c",
     "tm4c123gh6pm.h": "c",
     "led_buzzer.h": "c",
-    "switch_btn.h": "c"
+    "switch_btn.h": "c",
+    "bit_utilies.h": "c",
+    "gpio.h": "c",
+    "stdlib.h": "c"
   }
 }

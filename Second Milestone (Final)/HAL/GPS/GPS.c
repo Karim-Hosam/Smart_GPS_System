@@ -1,16 +1,22 @@
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//
+//  Name: Karim Hosam Ahmed Ali || ID: 2201405 || Department: CSE 
+//
+//  Name: Ahmed Emad Mohamed Zaghloul || ID: 2201374 || Department: ECE
+//
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
 #include "GPS.h"
 
-const int Places_Quantity = 6;
+const int Places_Quantity = 5;
 
-// char receive[] = "$GPGSV,4,4,13,08,09,245,*49 $GPRMC,121432.000,A,3003.8672,N,3116.8205,E,0.26,55.91,121017,,,A*58 $GPVTG,55.91,T,,M,0.26,N,0.49,K,A*0C $GPGGA,121431.000,1832.9618,N,07347.1183,E,1,8,1.02,611.1,M,-64.6,M,,*78 $GPGLL,1832.9618,N,07347.4183,E,121433.000,A,A*58 $GPGSA,A,3,14,18,19,32,11,26,31,,,,,1.34,1.02,0.87*39 $GPGSV,4,1,13,01,32,180,17,08,14,47,358,38,10,45,086,36,32,39,020,28*72";
-// to be removed later 
+// Coordinates of known places
 float Coordinate_fixed_places[Places_Quantity][2] = {
     {3003.8531, 3116.8222}, // Hall A & B
     {3003.8219, 3116.8358}, // Hall C & D
     {3003.8076, 3116.6998}, // Credit
     {3003.8904, 3116.7280}, // Main Building
     {3003.7884, 3116.7706},  // Luban
-	{3003.8119, 3116.3864}   // Metro
 };
 
 // ----------------------------------------------
@@ -43,7 +49,7 @@ void readGPS(char *Lat, char *Log)
     {
         //$GPRMC,200751.00,A,4047.32510,N,02929.63031,E,9.879,105.80,301117,,,A*6C
 
-        char c = UART2_CharRX(); // receive[GPS_Char_index]; (Uncomment this line to use UART for receiving data)
+        char c = UART2_CharRX(); 
 
         logName_buffer[GPS_Char_index % 6] = c;
 
